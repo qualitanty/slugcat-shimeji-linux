@@ -1,10 +1,23 @@
-![Shimeji for Linux](http://i.imgur.com/efHyX.png "Shimeji for Linux")
-Shimeji for Linux
-=================
+![Shimeji for Linux](./img/shime2a.png "Shimeji for Linux")
+Shimeji for Linux - Slugcat Edition
+===================================
+
+**Ported version of AnnoyingFlower's slugcat shimeji.**
+
+See [the original repo](https://github.com/asdfman/linux-shimeji) by asdfman.
 
 This is a Linux version of the popular desktop mascot program, Shimeji.
 
 I appreciate any bug reports or suggestions. Use the issue tracker here or contact me directly on IRC (Rizon) where I'm called 'asdfman'.
+
+The Slugcat Port
+================
+
+Insert Rain World copyright stuff here.
+
+The porting process involved moving images to the img folder, using the `conv.sed` file to convert `Behavior.xml` and `Actions.xml` into Japanese (since this Linux version is not tailored towards ShimejiEE), and replacing an instance of `FootX` with `footX` in `Actions.xml`.
+
+Please note that the program may occasionally bug out and spawn a slugcat in a tiled window (in i3wm at least). This happened only once in an hour of testing.
 
 
 Changelog
