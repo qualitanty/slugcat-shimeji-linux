@@ -2,7 +2,7 @@
 Shimeji for Linux - Slugcat Edition
 ===================================
 
-**Ported version of AnnoyingFlower's slugcat shimeji.**
+**Ported version of [AnnoyingFlower](https://twitter.com/annoying_flower)'s slugcat shimeji.**
 
 See [the original repo](https://github.com/asdfman/linux-shimeji) by asdfman.
 
